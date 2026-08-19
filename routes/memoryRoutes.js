@@ -4,6 +4,7 @@ import Memory from "../models/Memory.js";
 
 const router = express.Router();
 
+
 router.post("/", async (req, res) => {
   try {
     const memory = new Memory(req.body);
